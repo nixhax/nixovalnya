@@ -48,7 +48,7 @@ h1 {
     flex-align: center;
     text-align: right;
     shadow: 2pt;
-    background: #84B5F6;
+    background: #7C4DFF;
 
     margin: 16pt;
     padding: 8pt 16pt;
@@ -187,4 +187,8 @@ a :any-link {
 
 .anim-off-4 {
     animation-delay: -800ms;
+}
+
+.info {
+    margin-top: 16pt
 }
