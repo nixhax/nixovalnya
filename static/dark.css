@@ -166,11 +166,11 @@ h1 {
 }
 
 a :link {
-    color: #29B6F6;
+    color: #5C6BC0;
 }
 
-a :any-link {
-    color: #309fd3;
+a {
+    color: #9575CD;
 }
 
 .anim-off-1 {
