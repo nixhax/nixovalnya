@@ -4,181 +4,7 @@
 <head>
 	<title>Nixovalnya | Spring Edition</title>
 	<meta charset="utf-8" />
-	<style>
-		.logo {
-			position: absolute;
-			left: 30%;
-			right: 30%;
-			width: 40%;
-			opacity: 15%;
-			z-index: -1;
-		}
-
-		html {
-			font-family: sans-serif;
-			background: #0A033E;
-			color: #FFFDE7;
-		}
-
-		h1 {
-			margin-bottom: 0pt;
-		}
-
-		.supertitle {
-			font-size: 50pt;
-		}
-
-		.hot {
-			color: #29B6F6;
-			text-shadow: 2pt 2pt #9E9E9E;
-			rotate: 3deg;
-			translate: 0px 10px;
-		}
-
-		.subh1 {
-			translate: 20px -5px;
-		}
-
-		.important {
-			text-decoration: underline;
-			text-decoration-style: dotted;
-			animation-name: blinken;
-			animation-duration: 1s, 1s;
-			animation-iteration-count: infinite;
-		}
-
-		.card {
-			width: 250pt;
-			font-style: italic;
-			font-size: 12pt;
-			rotate: 2deg;
-			flex-align: center;
-			text-align: right;
-			shadow: 2pt;
-			background: #84B5F6;
-
-			margin: 16pt;
-			padding: 8pt 16pt;
-			border-radius: 8pt;
-		}
-
-		@keyframes blinken {
-			from {
-				color: #ff0000;
-			}
-
-			to {
-				color: #dd0000;
-			}
-		}
-
-		.minecraft {
-			animation-name: minecraft-scale, minecraft-rotate;
-			animation-timing-function: ease-in-out;
-			animation-duration: 0.30s, 1.8s;
-			animation-direction: alternate;
-			animation-iteration-count: infinite, infinite;
-
-		}
-
-		@keyframes important-scale {
-			from {
-				scale: 1.02;
-			}
-
-			to {
-				scale: 0.98;
-			}
-		}
-
-		@keyframes minecraft-scale {
-			from {
-				scale: 1.02;
-			}
-
-			to {
-				scale: 0.98;
-			}
-		}
-
-		@keyframes minecraft-rotate {
-			from {
-				rotate: -4deg;
-			}
-
-			to {
-				scale: +4deg;
-			}
-		}
-
-		.content {
-			text-align: center;
-			max-width: 500pt;
-		}
-
-		@media (min-width: 850px) {
-			.bar {
-				flex: 0 0 260px;
-			}
-		}
-
-		.centrify {
-			justify-content: center;
-			flex-direction: row;
-			display: flex;
-		}
-
-		.contents {
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
-			padding-bottom: 30px;
-		}
-
-
-		/* Talks n stuff */
-
-		@keyframes blinken-speaker {
-			from {
-				color: rgb(147, 10, 206);
-			}
-
-			to {
-				color: rgb(206, 44, 206);
-			}
-		}
-
-		.talk {
-			padding-top: 16pt ;
-		}
-
-		.talk h3 {
-			color: #5C6BC0;
-			margin-bottom: 4pt;
-			margin-top: 0pt;
-		}
-
-
-		.talk .speaker {
-			position: relative;
-			color:#9E9E9E;
-			/* height: 0; */
-			text-align: right;
-			right: 40pt;
-			animation-name: blinken-speaker;
-			animation-duration: 1s;
-			animation-direction: alternate;
-			animation-iteration-count: infinite;
-		}
-
-		a :link {
-			color: #29B6F6;
-		}
-
-		a :any-link {
-			color: #309fd3;
-		}
-	</style>
+	<link rel="stylesheet" href="static/dark.css" />
 </head>
 
 <body>
@@ -232,7 +58,7 @@
 				<summary>
 					Основные отличия Nix и Guix, интересные технические решения и немного личного опыта.
 				</summary>
-				<div class="speaker">Андрей Трунин</div>
+				<div class="speaker anim-off-1">Андрей Трунин</div>
 			</div>
 
 			<div class="talk">
@@ -241,7 +67,7 @@
 					Куда прошивать контроллеры и нафига у телефона свисает сбоку UART? Можно ли с этим жить и зачем?
 					Ищем ответы на эти и другие вопросы, не привлекая внимания санитаров.
 				</summary>
-				<div class="speaker">Nommy</div>
+				<div class="speaker anim-off-2">Nommy</div>
 			</div>
 
 			<div class="talk">
@@ -249,7 +75,7 @@
 				<summary>
 					Как использовать Nix, не становясь мейнтейнером?
 				</summary>
-				<div class="speaker">Йон Мостовой</div>
+				<div class="speaker anim-off-3">Йон Мостовой</div>
 			</div>
 
 			<div style="margin-top: 16pt">
