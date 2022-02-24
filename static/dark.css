@@ -86,21 +86,21 @@ h1 {
 
 @keyframes minecraft-scale {
     from {
-        scale: 1.02;
+        /* scale: 1.02; */
     }
 
     to {
-        scale: 0.98;
+        /* scale: 0.98; */
     }
 }
 
 @keyframes minecraft-rotate {
     from {
-        rotate: -4deg;
+        /* rotate: -4deg; */
     }
 
     to {
-        scale: +4deg;
+        /* scale: +4deg; */
     }
 }
 
@@ -152,6 +152,18 @@ h1 {
     margin-top: 0pt;
 }
 
+.overlay {
+    font-size: 20pt;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 10%;
+}
+
+.content {
+    scale: 0.3;
+    opacity: 0.3;
+}
 
 .talk .speaker {
     position: relative;
